@@ -1,0 +1,135 @@
+html {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	overflow: auto;
+}
+
+.hero-unit {
+    margin: 50px auto 0 auto;
+    width: 300px;
+}
+
+div.node{
+	position: absolute;
+	border: 1px solid black;
+	top:10px;
+	left:10px;
+	width:180px;
+	height:120px;
+	/*background-color:#F0DFAB;*/
+	border-radius: 15px;
+	-webkit-transform-origin:0% 0% 0;
+	/*box-shadow: 2px 2px 3px #bbb;*/
+}
+
+div.node.selected{
+	background-color: blue;
+}
+
+div.node.head{
+	background-color: brown;
+}
+
+div.node.leaf{
+	background-color: green;
+}
+
+div.node.branch{
+	background-color: orange
+}
+
+div.put {
+	position: absolute;
+	width:30px;
+	height:30px;
+	border: 1px solid black;
+	/*background-color:#F10879;*/
+	border-radius: 50000px;
+	-webkit-transform-origin:0% 0% 0;
+	/*box-shadow: 2px 2px 3px #bbb;*/
+}
+
+div.putt {
+	position: absolute;
+	border: 1px solid blue;
+	pointer-events: none;
+}
+div.node div.info{
+	text-align: center;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.box {
+	position: relative;
+	width: fit-content;
+	
+	border: 1px solid black;
+}
+
+.flex {
+	background-color:pink;
+	margin-left: 40px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+.row {
+	margin:10px;
+	height:100px;
+	background-color:red;
+}
+
+.sidemenu {
+	overflow:scroll;
+	position: fixed;
+	height: 100%;
+	top: 0;
+	background-color: blue;
+}
+
+.dot circle {
+	fill: lightsteelblue;
+	stroke: steelblue;
+	stroke-width: 1.5px;
+}
+
+.dot circle.dragging {
+	fill: red;
+	stroke: brown;
+}
+.node rect {
+	fill: lightsteelblue;
+	stroke: steelblue;
+	stroke-width: 1.5px;
+}
+
+.node rect.dragging {
+	fill: red;
+	stroke: brown;
+}
+
+.axis line {
+	fill: none;
+	stroke: #ddd;
+	shape-rendering: crispEdges;
+	vector-effect: non-scaling-stroke;
+}
+
+.connector {
+	fill: red;
+	stroke: blue;
+	shape-rendering: crispEdges;
+	vector-effect: non-scaling-stroke;
+	pointer-events: none;
+}

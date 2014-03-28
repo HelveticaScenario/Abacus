@@ -1,0 +1,19 @@
+{
+  "name": "yobackbonetest",
+  "version": "0.0.0",
+  "dependencies": {
+    "sass-bootstrap": "~3.0.0",
+    "jquery": "~1.9.0",
+    "backbone": "~1.1.0",
+    "requirejs": "~2.1.5",
+    "requirejs-text": "~2.0.5",
+    "modernizr": "~2.6.2",
+    "lodash": "~2.4.1",
+    "d3": "~3.3.13",
+    "hammerjs": "~1.0.6",
+    "jquery-hammerjs": "~1.0.1",
+    "exoskeleton": "~0.6.3",
+    "flat-ui-official": "~2.1.1"
+  },
+  "devDependencies": {}
+}
